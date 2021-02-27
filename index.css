@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:url(bg.jpg) no-repeat center center fixed;
+    /* background-size:100px 100px; */
+    background-size:cover;
+}
+
+.container{
+    /* border:10px solid black; */
+    color:orangered;
+    position:absolute;
+    top:28%;
+    left:50%;
+}
+
+.container h1{
+    font-family: 'Roboto Slab', serif;
+    font-size:50px;
+    border-bottom:6px solid green;
+    margin-bottom:15px;
+    padding:15px 0px;
+}
+
+.box{
+    /* border:2px solid yellow; */
+    width:100%;
+    border-bottom:2px solid green;
+    margin:32px 0;
+}
+
+.box input{
+    background:none;
+    width:75%;
+    border:none;
+    outline:none;
+    padding:6px 20px;
+    /* color:white; */
+    font-size:20px;
+}
+
+.btn{
+    cursor:pointer;
+    outline:none;
+    font-size:30px;
+    /* width:25%; */
+    margin:12px 0px;
+    padding:10px 21px;
+    border-radius:10px;
+    background:none;
+    color:green;
+    border:2px solid orangered;
+    font-family: 'Crete Round', serif;
+
+
+    
+}
+
+.btn:hover{
+    opacity: 0.6;
+    color:orange;
+    background:green;
+}
+
+.box i{
+    /* padding:0 12px; */
+    width:25px;
+    text-align:center;
+}
+
